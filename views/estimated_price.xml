@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="estimated_price" name="Estimasi Biaya Service">
+    <!-- Add an element after the top menu  -->
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section class="s_text_image pt0 pb0" data-name="Image - Text">
+                    <div>
+                    <img src="/academy/static/src/img/banner-service.png" class="container-max-width" alt="Odoo • Image and Text" data-original-title="" title="" aria-describedby="tooltip730266"/>
+                    </div>
+                </section>
+                <section class="pb0 pt0" data-name="Title">
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt16 pb16">
+                            <h2 class="s_title_default text-black font-weight-bold">
+                                Harga Jasa Servis Sepeda Motor Daya Motor
+                            </h2>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt0 pb0" data-name="Title">
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt0 pb0">
+                            <p class="s_title_default text-justify text-black">
+                                Berikut adalah harga minimal jasa servis motor Honda yang berlaku
+                                di seluruh bengkel resmi Daya Motor. <br></br> Harga yang tertera di bawah ini adalah harga MINIMAL yang diberikan oleh Main Dealer Honda Jakarta &amp; Tangerang. Harga yang ditawarkan di setiap AHASS (bengkel resmi Honda) bisa berbeda tetapi tidak akan lebih rendah dari harga dibawah ini.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="s_text_image pt0 pb0" data-name="Image - Text">
+                    <div class="container">
+                        <div class="row align-items-center">
+                        <div class="col-lg-12 pt0 pb0">
+                            <img
+                            src="/academy/static/src/img/estimasi-biaya-service.png"
+                            class="img img-fluid mx-auto w-100"
+                            alt="Odoo • Image and Text"
+                            data-original-title=""
+                            title=""
+                            aria-describedby="tooltip280730"
+                            />
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="pt0 pb0" data-name="Title">
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                        <div class="col-lg-12 s_title pt24 pb0">
+                            <h4 class="font-weight-bold">Paket Servis Lengkap</h4>
+                            <ol>
+                                <li>Pembersihan karburator</li>
+                                <li>Penyetelan karburator</li>
+                                <li>Pembersihan saringan udara</li>
+                                <li>Pemeriksaan dan penggantian oli</li>
+                                <li>Pembersihan busi</li>
+                                <li>Penyetelan dan pelumasan rantai roda</li>
+                                <li>Penyetelan rem depan dan belakang</li>
+                                <li>Pemeriksaan dan penambahan air aki</li>
+                                <li>Pemeriksaan lampu dan klakson</li>
+                                <li>Penyetelan dan pelumasan kabel gas</li>
+                                <li>Pemeriksaan dan penyetelan stang kemudi</li>
+                                <li>Pengencangan mur dan baut</li>
+                                <li>Pemeriksaan roda dan ban</li>
+                                <li>Penyetelan klep</li>
+                                <li>Penyetelan kopling</li>
+                            </ol>
+                            <h4 class="font-weight-bold">Paket Servis Ringan</h4>
+                            <ol>
+                                <li>Pembersihan karburator</li>
+                                <li>Penyetelan karburator</li>
+                                <li>Pembersihan saringan udara</li>
+                                <li>Pemeriksaan dan penggantian oli</li>
+                                <li>Pembersihan busi</li>
+                                <li>Penyetelan dan pelumasan rantai roda</li>
+                                <li>Penyetelan rem depan dan belakang</li>
+                                <li>Pemeriksaan dan penambahan air aki</li>
+                                <li>Pemeriksaan lampu dan klakson</li>
+                            </ol>
+                            <p class="s_title_default text-justify color-black">
+                            Paket servis ringan hanya mencover 9 poin diatas, Poin 10 sampai dengan poin 15 hanya anda dapatkan pada paket servis lengkap.
+                            </p>
+                            <h4 class="font-weight-bold">Servis Berat</h4>
+                            <p class="s_title_default text-justify text-black">
+                            Pengerjaan servis berat mencakup penggantian spare part di dalam ruang bakar (Piston set) dan komponen-komponen di dalam ruang transmisi. Pada overhaul proses pengerjaan dilakukan proses turun mesin. <br></br><br></br> Harga servis berat bervariasi dari tingkat kerusakan hingga waktu servis yang diperlukan.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="promo_page" name="Promo Page">
+    <!-- Add an element after the top menu  -->
+    <t t-call="website.layout">
+      <div id="wrap" class="oe_structure oe_empty">
+        <section class="pt32 pb32 bg-100" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt16 pb16 text-center">
+                <h1 class="s_title_default text-color-primary font-weight-bold">
+                  Promo
+                </h1>
+                <div class="s_hr text-left pt4 pb4" data-name="Separator">
+                  <hr
+                    class="border-color-primary s_hr_4px s_hr_solid mx-auto w-25"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_three_columns pt32 pb0 bg-100" data-name="Columns">
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                <div class="card">
+                  <img
+                    class="card-img-top rounded-top"
+                    src="/academy/static/src/img/promo-1.png"
+                    alt="Odoo - Sample 2 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip826951"
+                  />
+                  <small>
+                    <div class="card-body row text-muted font-weight-bold">
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-1">
+                            <span class="fa fa-clock-o fa-lg" />
+                          </div>
+                          <div class="col-auto">
+                            <p class="font-weight-bold">09 Juni 2022</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </small>
+                  <div
+                    class="card-footer bg-white text-left text-black border-top-0 pt0"
+                  >
+                    <b>Program Sales Honda BeAT Mei - Juni 2022</b>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                <div class="card">
+                  <img
+                    class="card-img-top rounded-top"
+                    src="/academy/static/src/img/promo-2.png"
+                    alt="Odoo - Sample 2 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip826951"
+                  />
+                  <small>
+                    <div class="card-body row text-muted font-weight-bold">
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-1">
+                            <span class="fa fa-clock-o fa-lg" />
+                          </div>
+                          <div class="col-auto">
+                            <p class="font-weight-bold">09 Juni 2022</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </small>
+                  <div
+                    class="card-footer bg-white text-left text-black border-top-0 pt0"
+                  >
+                    <b>Program Sales Honda CB150X Mei - Juli 2022</b>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                <div class="card">
+                  <img
+                    class="card-img-top rounded-top"
+                    src="/academy/static/src/img/promo-3.png"
+                    alt="Odoo - Sample 2 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip826951"
+                  />
+                  <small>
+                    <div class="card-body row text-muted font-weight-bold">
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-1">
+                            <span class="fa fa-clock-o fa-lg" />
+                          </div>
+                          <div class="col-auto">
+                            <p class="font-weight-bold">09 Juni 2022</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </small>
+                  <div
+                    class="card-footer bg-white text-left text-black border-top-0 pt0"
+                  >
+                    <b>Program Sales Honda Genio April - Mei 2022</b>
+                  </div>
+                </div>
+                <a
+                  href="/vario-160"
+                  data-original-title=""
+                  title=""
+                  aria-describedby="tooltip310286"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pb0 pt0 bg-100" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt16 pb16 bg-100">
+                <div class="s_btn text-center pt0 pb0" data-name="Button">
+                  <a
+                    href="#"
+                    class="btn btn-primary"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip11682"
+                  >
+                    <b>LIHAT PROMO LAINNYA &amp;gt;</b>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </t>
+  </template>
+</odoo>

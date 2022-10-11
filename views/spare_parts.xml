@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="spare_parts" name="Suku Cadang">
+    <!-- Add an element after the top menu  -->
+    <t t-call="website.layout">
+      <div id="wrap" class="oe_structure oe_empty">
+        <section class="s_text_image pt0 pb0 bg-100" data-name="Image - Text">
+          <div>
+            <img
+              src="/academy/static/src/img/banner-spareparts.png"
+              class="container-max-width"
+              alt="Odoo • Image and Text"
+              data-original-title=""
+              title="banner-spareparts"
+              aria-describedby="tooltip730266"
+            />
+          </div>
+        </section>
+        <section class="pb0 pt0 bg-100" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt16 pb16 text-center">
+                <h2 class="s_title_default color-black font-weight-bold">
+                  Spare Parts Asli Motor Honda
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt0 pb0 bg-100" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt0 pb0 text-center">
+                <p class="s_title_default color-black">
+                  Honda Genuine Parts merupakan suku cadang asli Honda yang
+                  direkomendasikan oleh PT. Astra Honda Motor, sehingga menjamin
+                  keaslian motor Honda Anda karena Honda Genuine Parts sama
+                  dengan yang terpasang pada motor Honda baru.
+                  <br /><br />
+                  Honda Genuine Parts memiliki karakteristik kemasan berwarna
+                  merah beserta logo AHM pada kemasannya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_three_columns pb32 bg-100 pt0" data-name="Columns">
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Lebih Aman</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text color-black">
+                      Material Honda Genuine Parts terbuat dari bahan yang sudah
+                      diuji kualitasnya.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Lebih Awet</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text color-black">
+                      Menggunakan komponen berkualitas tinggi sehingga tahan
+                      lebih lama.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Kualitas Honda</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text color-black">
+                      Honda Genuine Parts sama dengan yang terpasang pada motor
+                      Honda baru.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Lebih Hemat Biaya</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text color-black">
+                      Dengan usia pemakaian yang lebih lama, Honda Genuine Parts
+                      dapat menghemat biaya perawatan motor Anda.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Lebih Mudah Didapat</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text color-black">
+                      Honda Genuine Parts dapat dicari di jaringan resmi Honda
+                      Genuine Parts di seluruh Indonesia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Lebih Ramah Lingkungan</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text color-black">
+                      Bahan dasar Honda Genuine Parts terdiri dari campuran
+                      bahan-bahan berkualitas dan ramah lingkungan (bebas
+                      Asbes).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bg-100 pb0 pt0" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt16 pb16 text-center">
+                <h2 class="s_title_default text-color-primary font-weight-bold">
+                  Suku Cadang
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_three_columns pb0 bg-100" data-name="Columns">
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                <div class="card bg-white">
+                  <a href="/product-detail/">
+                    <img
+                      class="card-img-top"
+                      src="https://www.daya-motor.com/wp-content/uploads/2019/02/vario-150-esp-matte-blue-400x400.png"
+                      alt="Odoo - Sample 2 for three columns"
+                      data-original-title=""
+                      title=""
+                      aria-describedby="tooltip826951"
+                    />
+                  </a>
+                  <div class="card-body">
+                    <b>
+                      <div class="text-dark">
+                        <p>Honda Vario 160</p>
+                      </div>
+                      <div class="text-muted">
+                        <p class="mb0">Harga Mulai</p>
+                      </div>
+                      <div class="text-dark">
+                        <p>Rp. 23.997.000,-</p>
+                      </div>
+                    </b>
+                    <div class="pb16 pt16 s_btn text-center" data-name="Button">
+                      <a href="/product-detail/" class="btn btn-secondary"
+                        >Selengkapnya &amp;gt;
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                <div class="card bg-white">
+                  <img
+                    class="card-img-top"
+                    src="https://www.daya-motor.com/wp-content/uploads/2019/02/suprax_black-400x400.png"
+                    alt="Odoo - Sample 2 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip826951"
+                  />
+                  <div class="card-body">
+                    <b>
+                      <div class="text-dark">
+                        <p>Honda Supra X 125</p>
+                      </div>
+                      <div class="text-muted">
+                        <p class="mb0">Harga Mulai</p>
+                      </div>
+                      <div class="text-dark">
+                        <p>Rp. 19.669.000,-</p>
+                      </div>
+                    </b>
+                    <div class="pb16 pt16 s_btn text-center" data-name="Button">
+                      <a href="/product-detail/" class="btn btn-secondary"
+                        >Selengkapnya &amp;gt;
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                <div class="card bg-white">
+                  <img
+                    class="card-img-top"
+                    src="https://www.daya-motor.com/wp-content/uploads/2019/02/34737-400x400.png"
+                    alt="Odoo - Sample 2 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip826951"
+                  />
+                  <div class="card-body">
+                    <b>
+                      <div class="text-dark">
+                        <p>Honda CB150X</p>
+                      </div>
+                      <div class="text-muted">
+                        <p class="mb0">Harga Mulai</p>
+                      </div>
+                      <div class="text-dark">
+                        <p>Rp. 22.994.000,-</p>
+                      </div>
+                    </b>
+                    <div class="pb16 pt16 s_btn text-center" data-name="Button">
+                      <a href="/product-detail/" class="btn btn-secondary"
+                        >Selengkapnya &amp;gt;
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </t>
+  </template>
+</odoo>

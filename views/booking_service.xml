@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="booking_service" name="Booking Service">
+    <!-- Add an element after the top menu  -->
+    <t t-call="website.layout">
+      <div id="wrap" class="oe_structure oe_empty">
+        <section class="s_text_image pt0 pb0 bg-100" data-name="Image - Text">
+          <div>
+            <img
+              src="/academy/static/src/img/banner-service.png"
+              class="container-max-width"
+              alt="Odoo • Image and Text"
+              data-original-title=""
+              title=""
+              aria-describedby="tooltip730266"
+            />
+          </div>
+        </section>
+        <section class="pb0 pt0 bg-100" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt16 pb16 text-center">
+                <h2 class="s_title_default color-black font-weight-bold">
+                  Selamat Datang Di Bengkel Resmi Honda
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt0 pb0 bg-100" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt0 pb0 text-center">
+                <p class="s_title_default color-black">
+                  Untuk menjamin keamanan dan kenyamanan dalam berkendara,
+                  pastikan Anda mendapatkan servis terbaik hanya dari AHASS,
+                  yang dilengkapi dengan prosedur dan alat kerja standard Honda
+                  Jepang.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt32 bg-100 pb0" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt16 pb16 text-center">
+                <h3 class="s_title_default text-black">
+                  Mengapa Harus AHASS ?
+                </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_three_columns pb32 bg-100 pt0" data-name="Columns">
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Berkualitas dan Bergaransi</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text">
+                      <font style="color: rgb(0, 0, 0)"
+                        >Parts Asli &amp;amp; Lengkap Kepastian Pekerjaan
+                        Kepastian Biaya Tenaga Kerja Professional</font
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Responsif</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text">
+                      <font style="color: rgb(0, 0, 0)"
+                        >Pelayanan responsif Pekerjaan cepat &amp;amp; terukur
+                        Kepastian waktu</font
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Nyaman</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text">
+                      <font style="color: rgb(0, 0, 0)"
+                        >Fasilitas nyaman Petugas yang ramah</font
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Jaringan Luas</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text">
+                      <font style="color: rgb(0, 0, 0)"
+                        >Jaringan luas dan mudah ditemui</font
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="card bg-white">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <b>
+                        <font style="color: rgb(231, 99, 99); font-size: 18px"
+                          >Modern &amp;amp; Lengkap</font
+                        >
+                      </b>
+                    </h3>
+                    <p class="card-text">
+                      <font style="color: rgb(0, 0, 0)"
+                        >Peralatan yang digunakan modern dan lengkap</font
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bg-100 pb0 pt0" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt16 pb16 text-center">
+                <a class="text-decoration-none" href="/service-order/">
+                  <h2
+                    class="s_title_default text-color-primary font-weight-bold"
+                  >
+                    Book Service
+                  </h2>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt32 pb32 bg-color-secondary" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-3">
+              </div>
+              <div class="col-lg-1 offset-lg-1 pt24 pb24">
+                <img
+                  class="img-fluid o_we_custom_image mr-3 float-left padding-small"
+                  src="/academy/static/src/img/dealer-terdekat.svg"
+                />
+              </div>
+              <div class="col-lg-6 align-self-center">
+                <div>
+                  <h3><b>AHASS Terdekat</b></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </t>
+  </template>
+</odoo>

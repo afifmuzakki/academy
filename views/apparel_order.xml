@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="apparel_order" name="Apparel Order">
+    <!-- Add an element after the top menu  -->
+    <t t-call="website.layout">
+      <div id="wrap" class="oe_structure oe_empty">
+        <section class="s_text_image pt0 pb0" data-name="Image - Text">
+          <div>
+            <img
+              src="/academy/static/src/img/banner-apparel.png"
+              class="container-max-width"
+              alt="Odoo • Image and Text"
+              title="banner-apparel"
+              aria-describedby="tooltip730266"
+            />
+          </div>
+        </section>
+        <section class="pb0 pt0 " data-name="Title">
+          <div class="container">
+            <!-- <div class="row s_nb_column_fixed">
+              <div class="col-lg-1 hr-lines hr-line-left">
+              </div>
+              <div class="col-lg-1">
+                <i class="fa fa-sharp fa-solid fa-football-helmet color-text-secondary"></i>
+              </div>
+              <div class="col-lg-5 s_title pt16 pb0 text-center">
+                <h2 class="s_title_default text-color-secondary font-weight-bold">
+                  INFORMASI PEMBELIAN
+                </h2>
+              </div>
+              <div class="col-lg-5 hr-lines hr-line-right">
+              </div>
+            </div> -->
+            <div class="hr-theme-slash-2">
+              <div class="hr-line"></div>
+              <h3 class="hr-icon font-weight-bold"><i class="fa-solid fa-football-helmet"> INFORMASI PEMBELIAN</i></h3>
+              <div class="hr-line"></div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <form class="m-5">
+            <h4 class="text-left text-color-secondary font-weight-bold">PILIH SUBTOPIK</h4>
+            <div class="form-group">
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Apparel</option>
+                <option>Apparel 2</option>
+              </select>
+            </div>
+            <h4 class="text-left text-color-secondary font-weight-bold">ISI DATA DIRI</h4>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>NAMA</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="Tulis Nama Anda"
+                    required="true"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>EMAIL</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                    placeholder="nama@gmail.com"
+                    required="true"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>NO HANDPHONE</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                    placeholder="08XXXXXXXX"
+                    required="true"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>ALAMAT</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                  <textarea type="text" class="form-control" id="exampleFormControlTextarea1" placeholder="Tulis Alamat Anda" rows="3"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>PROVINSI</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                <select
+                      class="custom-select mr-sm-2"
+                      id="inlineFormCustomSelect"
+                      required="true"
+                    >
+                      <option value="0">Pilih Provinsi</option>
+                      <option value="1">Jawa Barat</option>
+                      <option value="2">Banten</option>
+                    </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>KOTA</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                <select
+                      class="custom-select mr-sm-2"
+                      id="inlineFormCustomSelect"
+                      required="true"
+                    >
+                      <option value="0">Pilih Kota</option>
+                      <option value="1">Bandung</option>
+                      <option value="2">Cirebon</option>
+                    </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>MOTOR YANG DIMILIKI</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                <select
+                      class="custom-select mr-sm-2"
+                      id="inlineFormCustomSelect"
+                      required="true"
+                    >
+                      <option value="1">Matic</option>
+                      <option value="2">Big Bike</option>
+                    </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>VARIAN MOTOR</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                <select
+                      class="custom-select mr-sm-2"
+                      id="inlineFormCustomSelect"
+                      required="true"
+                    >
+                      <option value="1">Matic</option>
+                      <option value="2">Big Bike</option>
+                    </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>TAHUN PEMBUATAN MOTOR</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                <select
+                      class="custom-select mr-sm-2"
+                      id="inlineFormCustomSelect"
+                      required="true"
+                    >
+                      <option value="1">2022</option>
+                      <option value="2">2021</option>
+                    </select>
+                </div>
+              </div>
+            </div>
+            <h4 class="text-left text-color-secondary font-weight-bold">PRODUK YANG DIMINATI</h4>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>JENIS APPAREL</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="Accessories"
+                    required="true"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>VARIAN APPAREL</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="All"
+                    required="true"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>RENCANA PEMBELIAN</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="1-2 Minggu"
+                    required="true"
+                  />
+                </div>
+              </div>
+            </div>
+            <h4 class="text-left text-color-secondary font-weight-bold">PESAN</h4>
+            <div class="row">
+              <div class="col-lg-3">
+                <p>TULIS PESAN</p>
+              </div>
+              <div class="col-lg-9">
+                <div class="form-group">
+                  <textarea type="text" class="form-control" id="exampleFormControlTextarea1" placeholder="Masukan Ukuran yang Anda Inginkan" rows="3"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="text-center d-grid gap-2 col-6 mx-auto">
+              <button type="button" class="btn btn-primary font-weight-bold">
+                Kirim
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </t>
+  </template>
+</odoo>

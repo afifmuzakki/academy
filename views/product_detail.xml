@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="product_detail" name="Product Detail">
+    <!-- Add an element after the top menu  -->
+    <t t-call="website.layout">
+      <div id="wrap" class="oe_structure oe_empty">
+        <div class="live-chat-riri">
+          <a href="/live-chat/">
+            <img
+              href="/live-chat/"
+              class="act-img"
+              src="/academy/static/src/img/popup-riri.png"
+              data-original-title=""
+              title=""
+              aria-describedby="tooltip941603"
+              data-toggle="modal"
+              data-target="#exampleModal"
+              style="max-height: 100px; max-width: 250px"
+            />
+          </a>
+        </div>
+        <section class="s_text_image pt0 pb0 bg-100" data-name="Image - Text">
+          <div>
+            <img
+              src="/academy/static/src/img/banner-vario.png"
+              class="container-max-width"
+              alt="Odoo • Image and Text"
+              data-original-title=""
+              title=""
+              aria-describedby="tooltip730266"
+            />
+          </div>
+        </section>
+        <section
+          class="s_text_block bg-color-primary pb8 pt16"
+          data-name="Text block"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3" id="connect">
+                <p class="text-center text-white">DOWNLOAD BROCHURE</p>
+              </div>
+              <div class="col-lg-3" id="connect">
+                <a href="/unit-order/" class="text-decoration-none"
+                  ><p class="text-center text-white">LAKUKAN PEMESANAN</p></a
+                >
+              </div>
+              <div class="col-lg-3" id="connect">
+                <p class="text-center text-white">TEST RIDE</p>
+              </div>
+              <div class="col-lg-3" id="connect">
+                <p class="text-center text-white">CALCULATOR CICILAN</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pb0 pt0 bg-100" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt16 pb0 text-center">
+                <h1 class="s_title_default">
+                  <span class="text-color-primary font-weight-bold"
+                    >Varian Warna
+                  </span>
+                </h1>
+                <div class="s_hr text-left pb4 pt4" data-name="Separator">
+                  <hr
+                    class="border-color-primary s_hr_4px s_hr_solid mx-auto w-25"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_three_columns pt32 pb32 bg-100" data-name="Columns">
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="bg-white card">
+                  <img
+                    class="card-img-top"
+                    src="/academy/static/src/img/vario-1.png"
+                    alt="Odoo - Sample 1 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip269002"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="bg-white card">
+                  <img
+                    class="card-img-top"
+                    src="/academy/static/src/img/vario-2.png"
+                    alt="Odoo - Sample 2 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip460680"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="bg-white card">
+                  <img
+                    class="card-img-top"
+                    src="/academy/static/src/img/vario-3.png"
+                    alt="Odoo - Sample 2 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip460680"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_three_columns pt32 pb32 bg-100" data-name="Columns">
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="bg-white card">
+                  <img
+                    class="card-img-top"
+                    src="/academy/static/src/img/vario-4.png"
+                    alt="Odoo - Sample 1 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip269002"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="bg-white card">
+                  <img
+                    class="card-img-top"
+                    src="/academy/static/src/img/vario-5.png"
+                    alt="Odoo - Sample 2 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip460680"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                <div class="bg-white card">
+                  <img
+                    class="card-img-top"
+                    src="/academy/static/src/img/vario-6.png"
+                    alt="Odoo - Sample 2 for three columns"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip460680"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_text_image pt0 pb0 bg-100" data-name="Image - Text">
+          <div class="container-max-width">
+            <div class="row align-items-center">
+              <div class="col-lg-12 pt0 pb0 bg-100">
+                <img
+                  src="/academy/static/src/img/banner-vario-big.png"
+                  class="img img-fluid mx-auto w-100"
+                  alt="Odoo • Image and Text"
+                  data-original-title=""
+                  title="banner-vario-big"
+                  aria-describedby="tooltip280730"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_text_image pt0 pb0" data-name="Image - Text">
+          <div class="container">
+            <div class="row align-items-center" />
+          </div>
+        </section>
+        <section class="pb0 pt0 bg-color-primary" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div
+                class="col-lg-12 s_title pt16 pb16 bg-color-primary text-center"
+              >
+                <h1 class="s_title_default text-white">
+                  Status Unit:<b> Ready</b>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_text_image pt32 pb32 bg-100" data-name="Image - Text">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="pt16 pb16 col-lg-9">
+                <img
+                  src="/academy/static/src/img/vario-160.png"
+                  class="img img-fluid mx-auto text-center"
+                  alt="Odoo • Image and Text"
+                  data-original-title=""
+                  title=""
+                  aria-describedby="tooltip615336"
+                />
+              </div>
+              <div class="pt16 pb16 col-lg-1">
+                <h2 class="text-center text-color-primary font-weight-bold">
+                  ABS
+                </h2>
+                <div class="s_btn pt16 pb16 text-center">
+                  <a
+                    href="#"
+                    class="btn btn-outline-color-primary"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip817749"
+                    >White</a
+                  >
+                </div>
+                <div class="s_btn pt16 pb16 text-center">
+                  <a
+                    href="#"
+                    class="btn btn-outline-color-primary"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip817749"
+                    >Black</a
+                  >
+                </div>
+                <div class="s_btn pt16 pb16 text-center">
+                  <a
+                    href="#"
+                    class="btn btn-outline-color-primary"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip817749"
+                    >Brown</a
+                  >
+                </div>
+              </div>
+              <div class="pt16 pb16 col-lg-1">
+                <h2 class="text-center text-color-primary font-weight-bold">
+                  CBS
+                </h2>
+                <div class="s_btn pt16 pb16 text-center">
+                  <a
+                    href="#"
+                    class="btn btn-outline-color-primary"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip817749"
+                    >White</a
+                  >
+                </div>
+                <div class="s_btn pt16 pb16 text-center">
+                  <a
+                    href="#"
+                    class="btn btn-outline-color-primary"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip817749"
+                    >Black</a
+                  >
+                </div>
+                <div class="s_btn pt16 pb16 text-center">
+                  <a
+                    href="#"
+                    class="btn btn-outline-color-primary"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip817749"
+                    >Brown</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_three_columns pb32 pt0 bg-100" data-name="Columns">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="float-right" data-name="Button">
+                  <a
+                    href="#"
+                    class="btn-primary btn"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip745048"
+                  >
+                    <i class="fa fa-heart" />
+                    <b> FAVORIT </b>
+                  </a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="float-left" data-name="Button">
+                  <a
+                    href="/unit-order/"
+                    class="btn-tertiary btn"
+                    data-original-title=""
+                    title=""
+                    aria-describedby="tooltip745048"
+                  >
+                    <i class="fa fa-shopping-bag" />
+                    <b> PESAN </b>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pb0 pt0" data-name="Title">
+          <div class="container">
+            <div class="row s_nb_column_fixed">
+              <div class="col-lg-12 s_title pt0 pb24 text-center">
+                <h1 class="s_title_default">
+                  <span class="text-color-primary">
+                    <b>SPESIFIKASI MOTOR</b>
+                  </span>
+                </h1>
+                <div class="s_hr text-left pt0 pb0" data-name="Separator">
+                  <hr
+                    class="border-color-primary s_hr_4px s_hr_solid w-25 mx-auto"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_tabs" data-name="Tabs">
+          <div class="container">
+            <div class="row s_col_no_bgcolor">
+              <div class="col-lg-12 pb24 pt0">
+                <div class="card bg-white">
+                  <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs" role="tablist">
+                      <li class="nav-item nav-item-center">
+                        <a
+                          class="nav-link text-color-primary active"
+                          id="nav_tabs_link_1661919982245_445"
+                          data-toggle="tab"
+                          href="#nav_tabs_content_1661919982245_445"
+                          role="tab"
+                          aria-controls="nav_tabs_content_1661919982245_445"
+                          aria-selected="true"
+                          data-original-title=""
+                          title=""
+                          >MESIN</a
+                        >
+                      </li>
+                      <li class="nav-item nav-item-center">
+                        <a
+                          class="nav-link text-color-primary"
+                          id="nav_tabs_link_1661919982245_446"
+                          data-toggle="tab"
+                          href="#nav_tabs_content_1661919982245_446"
+                          role="tab"
+                          aria-controls="nav_tabs_content_1661919982245_446"
+                          aria-selected="false"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip518332"
+                          >KELISTRIKAN</a
+                        >
+                      </li>
+                      <li class="nav-item nav-item-center">
+                        <a
+                          class="nav-link text-color-primary"
+                          id="nav_tabs_link_1661919982245_447"
+                          data-toggle="tab"
+                          href="#nav_tabs_content_1661919982245_447"
+                          role="tab"
+                          aria-controls="nav_tabs_content_1661919982245_447"
+                          aria-selected="false"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip518332"
+                          >DIMENSI DAN BERAT</a
+                        >
+                      </li>
+                      <li class="nav-item nav-item-center">
+                        <a
+                          class="nav-link text-color-primary"
+                          id="nav_tabs_link_1661919982245_448"
+                          data-toggle="tab"
+                          href="#nav_tabs_content_1661919982245_448"
+                          role="tab"
+                          aria-controls="nav_tabs_content_1661919982245_448"
+                          aria-selected="false"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip691974"
+                          >RANGKA DAN KAKI</a
+                        >
+                      </li>
+                      <li class="nav-item nav-item-center">
+                        <a
+                          class="nav-link text-color-primary"
+                          id="nav_tabs_link_1661919982245_449"
+                          data-toggle="tab"
+                          href="#nav_tabs_content_1661919982245_449"
+                          role="tab"
+                          aria-controls="nav_tabs_content_1661919982245_449"
+                          aria-selected="false"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip691974"
+                          >HARGA OTR</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-body tab-content">
+                    <div
+                      class="tab-pane fade active show"
+                      id="nav_tabs_content_1661919982245_445"
+                      role="tabpanel"
+                      aria-labelledby="nav_tabs_link_1661919982245_445"
+                    >
+                      <img
+                        class="img-fluid o_we_custom_image"
+                        src="/academy/static/src/img/spek-vario.png"
+                        data-original-title=""
+                        title=""
+                        aria-describedby="tooltip135965"
+                      />
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="nav_tabs_content_1661919982245_446"
+                      role="tabpanel"
+                      aria-labelledby="nav_tabs_link_1661919982245_446"
+                    >
+                      <h3>Kelistrikan</h3>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="nav_tabs_content_1661919982245_447"
+                      role="tabpanel"
+                      aria-labelledby="nav_tabs_link_1661919982245_447"
+                    >
+                      <h3>Dimensi dan Berat</h3>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="nav_tabs_content_1661919982245_448"
+                      role="tabpanel"
+                      aria-labelledby="nav_tabs_link_1661919982245_448"
+                    >
+                      <h3>Rangka dan Kaki</h3>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="nav_tabs_content_1661919982245_449"
+                      role="tabpanel"
+                      aria-labelledby="nav_tabs_link_1661919982245_449"
+                    >
+                      <h3>Harga OTR</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </t>
+  </template>
+</odoo>

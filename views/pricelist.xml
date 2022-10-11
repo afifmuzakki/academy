@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="pricelist_page" name="Pricelist Page">
+    <!-- Add an element after the top menu  -->
+    <t t-call="website.layout">
+      <div id="wrap" class="oe_structure oe_empty">
+        <section
+          class="s_features pb0 bg-color-secondary pt24 pb24"
+          data-name="Features"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-1 offset-lg-1 pt24 pb24">
+                <img
+                  class="img-fluid o_we_custom_image mr-3 float-left padding-small"
+                  src="/academy/static/src/img/dealer-terdekat.svg"
+                />
+              </div>
+              <div class="col-lg-4 m-auto">
+                <div>
+                  <h3><b>Dealer Terdekat</b></h3>
+                </div>
+                <div>
+                  <a
+                    href="/dealer-terdekat"
+                    class="text-decoration-none text-color-primary"
+                    ><b>Cari dealer terdekatmu &gt;</b>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-1 offset-lg-1 pt24 pb24">
+                <img
+                  class="img-fluid o_we_custom_image mr-3 float-left padding-small"
+                  src="/academy/static/src/img/price-list.svg"
+                />
+              </div>
+              <div class="col-lg-4 m-auto">
+                <div>
+                  <h3><b>Pricelist</b></h3>
+                </div>
+                <div>
+                  <a
+                    href="/pricelist"
+                    class="text-decoration-none text-color-primary"
+                    ><b>Cari dealer terdekatmu &gt;</b>
+                  </a>
+                </div>
+                <!-- <div class="s_hr text-left pt32 pb32" data-name="Separator">
+                  <hr
+                    class="border-color-primary s_hr_solid w-100 mx-auto s_hr_3px"
+                  />
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_tabs bg-100" data-name="Tabs">
+          <div class="container">
+            <div class="row s_col_no_bgcolor">
+              <div class="pb48 col-lg-12 pt48">
+                <div class="card bg-white">
+                  <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs" role="tablist">
+                      <li class="nav-item nav-item-center">
+                        <a
+                          class="nav-link text-color-primary active"
+                          id="nav_tabs_link_1662088537450_13"
+                          data-toggle="tab"
+                          href="#nav_tabs_content_1662088537450_13"
+                          role="tab"
+                          aria-controls="nav_tabs_content_1662088537450_13"
+                          aria-selected="true"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip667106"
+                        >
+                          <b>
+                            <font
+                              style="font-size: 18px"
+                              data-original-title=""
+                              title=""
+                              aria-describedby="tooltip645197"
+                              >Matic</font
+                            >
+                          </b>
+                        </a>
+                      </li>
+                      <li class="nav-item nav-item-center">
+                        <a
+                          class="nav-link text-color-primary"
+                          id="nav_tabs_link_1662088537450_14"
+                          data-toggle="tab"
+                          href="#nav_tabs_content_1662088537450_14"
+                          role="tab"
+                          aria-controls="nav_tabs_content_1662088537450_14"
+                          aria-selected="false"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip370258"
+                        >
+                          <b>
+                            <font
+                              style="font-size: 18px"
+                              data-original-title=""
+                              title=""
+                              aria-describedby="tooltip798515"
+                              >Sport</font
+                            >
+                          </b>
+                        </a>
+                      </li>
+                      <li class="nav-item nav-item-center">
+                        <a
+                          class="nav-link text-color-primary"
+                          id="nav_tabs_link_1662088537450_15"
+                          data-toggle="tab"
+                          href="#nav_tabs_content_1662088537450_15"
+                          role="tab"
+                          aria-controls="nav_tabs_content_1662088537450_15"
+                          aria-selected="false"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip436991"
+                        >
+                          <b
+                            data-original-title=""
+                            title=""
+                            aria-describedby="tooltip412480"
+                          >
+                            <font style="font-size: 18px">Cub</font>
+                          </b>
+                        </a>
+                      </li>
+                      <li class="nav-item nav-item-center">
+                        <a
+                          class="nav-link text-color-primary"
+                          id="nav_tabs_link_1662088537450_16"
+                          data-toggle="tab"
+                          href="#nav_tabs_content_1662088537450_16"
+                          role="tab"
+                          aria-controls="nav_tabs_content_1662088537450_16"
+                          aria-selected="false"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip436991"
+                        >
+                          <b>
+                            <font
+                              style="font-size: 18px"
+                              data-original-title=""
+                              title=""
+                              aria-describedby="tooltip575813"
+                              >Big Bike</font
+                            >
+                          </b>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-body tab-content">
+                    <div
+                      class="tab-pane fade active show"
+                      id="nav_tabs_content_1662088537450_13"
+                      role="tabpanel"
+                      aria-labelledby="nav_tabs_link_1662088537450_13"
+                    >
+                      <h3>
+                        <img
+                          class="img-fluid o_we_custom_image w-100"
+                          src="/academy/static/src/img/pricelist-matic.png"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip55477"
+                        />
+                      </h3>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="nav_tabs_content_1662088537450_14"
+                      role="tabpanel"
+                      aria-labelledby="nav_tabs_link_1662088537450_14"
+                    >
+                      <h3>
+                        <img
+                          class="img-fluid o_we_custom_image w-100"
+                          src="/academy/static/src/img/pricelist-sport.png"
+                          data-original-title=""
+                          title=""
+                          aria-describedby="tooltip97545"
+                        />
+                        <br />
+                      </h3>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="nav_tabs_content_1662088537450_15"
+                      role="tabpanel"
+                      aria-labelledby="nav_tabs_link_1662088537450_15"
+                    >
+                      <h3>Pricelist Cub</h3>
+                      <h3>
+                        <br />
+                      </h3>
+                      <blockquote></blockquote>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="nav_tabs_content_1662088537450_16"
+                      role="tabpanel"
+                      aria-labelledby="nav_tabs_link_1662088537450_16"
+                    >
+                      <h3>Pricelist Big Bike</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </t>
+  </template>
+</odoo>

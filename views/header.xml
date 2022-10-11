@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template
+    id="replace_header"
+    inherit_id="portal.frontend_layout"
+    name="Custom Header"
+  >
+    <xpath
+      expr="//nav[@class='navbar navbar-expand-md navbar-light bg-light']"
+      position="replace"
+    >
+      <div class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+          <a href="/" class="navbar-brand logo">
+            <span
+              data-oe-model="website"
+              data-oe-id="3"
+              data-oe-field="logo"
+              data-oe-type="image"
+              data-oe-expression="website.logo"
+              role="img"
+              data-oe-field-xpath="/data/xpath/a/span[1]"
+              aria-label="Logo of Honda_Daya-Motor"
+              title="Honda_Daya-Motor"
+              ><img
+                src="/web/image/website/3/logo/Honda_Daya-Motor?unique=ac21ce5"
+                class="img img-fluid"
+                alt="Daya-Motor"
+            /></span>
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#top_menu_collapse"
+            data-oe-model="ir.ui.view"
+            data-oe-id="1861"
+            data-oe-field="arch"
+            data-oe-xpath="/data/xpath[2]/nav/div[1]/button[1]"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="text-white"
+            id="top_menu_collapse"
+            style="font-weight: 600; line-height: 31px"
+          >
+            <ul class="nav navbar-nav o_menu_loading" id="top_menu">
+              <li class="nav-item">
+                <a role="menuitem" href="/product/" class="nav-link">
+                  <span
+                    data-oe-model="website.menu"
+                    data-oe-id="27"
+                    data-oe-field="name"
+                    data-oe-type="char"
+                    data-oe-expression="submenu.name"
+                    class="text-white"
+                    >Produk</span
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a role="menuitem" href="/promo/" class="nav-link">
+                  <span
+                    data-oe-model="website.menu"
+                    data-oe-id="18"
+                    data-oe-field="name"
+                    data-oe-type="char"
+                    data-oe-expression="submenu.name"
+                    class="text-white"
+                    >Promo</span
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a role="menuitem" href="/aftersales/" class="nav-link">
+                  <span
+                    data-oe-model="website.menu"
+                    data-oe-id="19"
+                    data-oe-field="name"
+                    data-oe-type="char"
+                    data-oe-expression="submenu.name"
+                    class="text-white"
+                    >Aftersales</span
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a role="menuitem" href="/news/" class="nav-link">
+                  <span
+                    data-oe-model="website.menu"
+                    data-oe-id="28"
+                    data-oe-field="name"
+                    data-oe-type="char"
+                    data-oe-expression="submenu.name"
+                    class="text-white"
+                    >Berita</span
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a role="menuitem" href="/profil/" class="nav-link">
+                  <span
+                    data-oe-model="website.menu"
+                    data-oe-id="29"
+                    data-oe-field="name"
+                    data-oe-type="char"
+                    data-oe-expression="submenu.name"
+                    class="text-white"
+                    >Profil</span
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a role="menuitem" href="/contactus/" class="nav-link">
+                  <span
+                    data-oe-model="website.menu"
+                    data-oe-id="12"
+                    data-oe-field="name"
+                    data-oe-type="char"
+                    data-oe-expression="submenu.name"
+                    class="text-white"
+                    >Kontak</span
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a role="menuitem" href="/shop" class="nav-link">
+                  <span
+                    data-oe-model="website.menu"
+                    data-oe-id="24"
+                    data-oe-field="name"
+                    data-oe-type="char"
+                    data-oe-expression="submenu.name"
+                    class="text-white"
+                    >Shop</span
+                  >
+                </a>
+              </li>
+              <form
+                method="get"
+                class="o_wsale_products_searchbar_form s_wsale_products_searchbar_input mb-3"
+                action="/shop"
+                data-name="Products Search Input"
+                style="margin-top: 5px"
+              >
+                <div
+                  role="search"
+                  class="input-group border rounded border-white"
+                >
+                  <input
+                    type="text"
+                    name="search"
+                    class="search-query form-control oe_search_box"
+                    placeholder="Vario 160"
+                    data-limit="5"
+                    data-display-description="true"
+                    data-display-price="true"
+                    data-display-image="true"
+                    autocomplete="off"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      type="submit"
+                      class="btn btn-primary oe_search_button rounded-0"
+                      aria-label="Search"
+                      title="Search"
+                    >
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+                <input
+                  name="order"
+                  type="hidden"
+                  class="o_wsale_search_order_by"
+                  value=""
+                />
+              </form>
+              <li
+                class="nav-item divider d-none"
+                data-oe-id="1874"
+                data-oe-xpath="/data/xpath/li[1]"
+                data-oe-model="ir.ui.view"
+                data-oe-field="arch"
+              ></li>
+              <li class="nav-item o_wsale_my_cart">
+                <a href="/shop/cart" class="nav-link">
+                  <i
+                    class="fa fa-shopping-bag fa-lg text-white"
+                    data-oe-model="ir.ui.view"
+                    data-oe-id="1874"
+                    data-oe-field="arch"
+                    data-oe-xpath="/data/xpath/li[2]/a[1]/i[1]"
+                  ></i>
+                  <sup
+                    class="my_cart_quantity badge"
+                    style="color: white"
+                    data-order-id="38"
+                    >1</sup
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item o_wsale_my_wish">
+                <a href="/shop/wishlist" class="nav-link">
+                  <i
+                    class="fa fa-heart fa-lg text-white"
+                    data-oe-model="ir.ui.view"
+                    data-oe-id="1902"
+                    data-oe-field="arch"
+                    data-oe-xpath="/data/xpath/t/li[1]/a[1]/i[1]"
+                  ></i>
+                  <sup
+                    class="my_wish_quantity o_animate_blink badge"
+                    style="color: white"
+                    >1</sup
+                  >
+                </a>
+              </li>
+
+              <li class="nav-item divider"></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  style="color: white"
+                  data-toggle="dropdown"
+                >
+                  <b>
+                    <span class="fa fa-user fa-lg text-white"> Hi, Zara</span>
+                  </b>
+                </a>
+                <div class="dropdown-menu js_usermenu" role="menu">
+                  <a href="/my/home" role="menuitem" class="dropdown-item"
+                    >My Account</a
+                  >
+                  <a
+                    id="o_logout"
+                    class="dropdown-item"
+                    role="menuitem"
+                    href="/web/session/logout?redirect=/"
+                    >Logout</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </xpath>
+  </template>
+</odoo>
